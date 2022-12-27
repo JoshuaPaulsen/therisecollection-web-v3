@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  /* Hide container scrollbar */
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
