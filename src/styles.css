@@ -1,6 +1,43 @@
 body {
     margin: 0;
   }
+
+  .flex-box-header {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    width: 100vw;
+ 
+  }
+  
+
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 5px;
+    margin-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .header {
+    position: absolute;
+
+  }
+
+  .header h2 {
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+  }
   
   .container {
     scroll-snap-type: y mandatory;
@@ -17,10 +54,31 @@ body {
     height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-  
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+/* LARGER DEVICES */
+@media (min-width: 992px) {
+  .button {
+    visibility: hidden;
+  }
+}
+
+
+  /* PHONE */
+  @media only screen and (max-width: 720px) and (min-width: 360px) {
+    .header h2 {
+      color: rgb(255, 255, 255);
+      padding-left: 10px;
+      font-size: 'auto';
+    }
+    .button {
+      margin-right: 5px;
+    }
+  }
+
+
   
