@@ -67,7 +67,6 @@ body {
   }
 }
 
-
   /* PHONE */
   @media only screen and (max-width: 720px) and (min-width: 360px) {
     .header h2 {
