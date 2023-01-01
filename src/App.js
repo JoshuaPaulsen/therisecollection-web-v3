@@ -1,11 +1,11 @@
 import "./styles.css";
 
+
 export default function App() {
   return (
       <div className="container">
         <div className="flex-box-header header">
           <h2>THE RISE COLLECTION</h2>
-          <button id="menu" className="button">MENU</button>
           </div>
       <div
         style={{
@@ -14,34 +14,26 @@ export default function App() {
         className="section"
       >
       </div>
+
       <div
         className="section"
         style={{
           backgroundColor: 'orange'
         }}
-      ></div>
+        
+      >
+        </div>
       <div
         className="section"
         style={{
           backgroundColor: 'yellow'
         }}
       ></div>
+
       <div
         className="section"
         style={{
           backgroundColor: 'green'
-        }}
-      ></div>
-      <div
-        className="section"
-        style={{
-          backgroundColor: 'purple'
-        }}
-      ></div>
-      <div
-        className="section"
-        style={{
-          backgroundColor: 'pink'
         }}
       ></div>
       <div
