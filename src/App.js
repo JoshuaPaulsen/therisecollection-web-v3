@@ -7,12 +7,13 @@ export default function App() {
         <div className="flex-box-header header">
           <h2>THE RISE COLLECTION</h2>
                     </div>
+       
       <div
         style={{
           backgroundColor: 'red'
         }}
-        className="section"
-      >
+        className="section-home"
+      >       
       </div>
 
       <div

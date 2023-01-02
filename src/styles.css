@@ -2,6 +2,25 @@ body {
     margin: 0;
   }
 
+ 
+
+  .tagline h3 {
+   background-color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+  }
+
+
+  .header-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
   .container p {
     -webkit-text-size-adjust: 100%;
     tab-size: 4;
@@ -173,11 +192,17 @@ body {
     justify-content:space-between;
     align-items: baseline;
     width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7); 
+
  
   }
 
+ 
+
   .header {
     position: absolute;
+    
+
   }
 
   .header h2 {
@@ -199,6 +224,17 @@ body {
     display: none;
   }
   
+  .section-home {
+    background-image: url('../public/images/home.GIF');
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .section {
     height: 100vh;
     scroll-snap-align: start;
@@ -232,6 +268,8 @@ body {
     .flex-box-header h2{
       margin-left: -25px;
     }
+
+
 
   
   }
