@@ -2,7 +2,10 @@ body {
     margin: 0;
   }
 
- 
+  .home-text-container {
+    text-align: center;
+    background-color: black;
+  }
 
   .tagline h3 {
    background-color: black;
@@ -40,16 +43,7 @@ body {
     --tw-skew-y: 0;
     --tw-scale-x: 1;
     --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
     --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
     --tw-ring-color: rgb(59 130 246 / .5);
@@ -57,24 +51,6 @@ body {
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: ;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -192,17 +168,11 @@ body {
     justify-content:space-between;
     align-items: baseline;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.7); 
-
- 
+    background-color: rgba(0, 0, 0, 0.7);  
   }
-
- 
 
   .header {
     position: absolute;
-    
-
   }
 
   .header h2 {
@@ -235,6 +205,36 @@ body {
     background-repeat: no-repeat;
   }
 
+  .section-games {
+    background-image: url('../public/images/randomTV.PNG');
+    height: 472px;
+
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-media {
+    background-image: url('../public/images/cars.PNG');
+    height: 480px;
+
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-software {
+    background-image: url('../public/images/computerspace.PNG');
+    height: 480px;
+
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .section {
     height: 100vh;
     scroll-snap-align: start;
@@ -245,7 +245,8 @@ body {
     background-repeat: no-repeat;
   }
 
-  
+
+  /* Note - look into max-width for multiple supported devices */
   @media (max-width: 480px) {
     .angry-grid {
       display: grid;
@@ -260,16 +261,12 @@ body {
       "one one"
 
       "two two"
-
-     
       ;
     }
 
     .flex-box-header h2{
       margin-left: -25px;
     }
-
-
 
   
   }

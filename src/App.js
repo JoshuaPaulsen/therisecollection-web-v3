@@ -13,7 +13,10 @@ export default function App() {
           backgroundColor: 'red'
         }}
         className="section-home"
-      >       
+      >    
+
+      <div id="home-text-container">
+  </div>   
       </div>
 
       <div
@@ -26,7 +29,7 @@ export default function App() {
 
 
 <div className="angry-grid">
-  <div id="item-0">img</div>
+  <div id="item-0"><div className="section-games"></div></div>
   <div id="item-1">
     <h4>Game Development And Publishing</h4>
   <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
@@ -45,7 +48,7 @@ export default function App() {
     <h4>Multimedia Projects</h4>
         <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
   </div>
-  <div id="item-1">img</div>
+  <div id="item-1"><div className="section-media"></div></div>
 </div>
       </div>
 
@@ -56,7 +59,7 @@ export default function App() {
         }}
       >
         <div className="angry-grid">
-  <div id="item-0">img</div>
+  <div id="item-0"><div className="section-software"></div></div>
   <div id="item-1">
     <h4>Software Solutions</h4>
   <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
