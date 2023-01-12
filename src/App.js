@@ -27,7 +27,6 @@ export default function App() {
         
       >
 
-
 <div className="angry-grid">
   <div id="item-0"><div className="section-games"></div></div>
   <div id="item-1">
@@ -67,7 +66,7 @@ export default function App() {
 </div>
       </div>
       <div
-        className="section"
+        className="section-footer"
         style={{
           backgroundColor: 'red'
         }}

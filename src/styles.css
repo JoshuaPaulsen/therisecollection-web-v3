@@ -195,7 +195,18 @@ body {
   }
   
   .section-home {
-    background-image: url('../public/images/home.GIF');
+    background-image: url('../public/images/intro.PNG');
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-footer {
+    background-image: url('../public/images/working.GIF');
     height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
@@ -207,8 +218,7 @@ body {
 
   .section-games {
     background-image: url('../public/images/randomTV.PNG');
-    height: 472px;
-
+    height: 75vh;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -217,7 +227,7 @@ body {
 
   .section-media {
     background-image: url('../public/images/cars.PNG');
-    height: 480px;
+    height: 75vh;
 
     background-position-x: center;
     background-position-y: center;
@@ -227,7 +237,7 @@ body {
 
   .section-software {
     background-image: url('../public/images/computerspace.PNG');
-    height: 480px;
+    height: 75vh;
 
     background-position-x: center;
     background-position-y: center;
