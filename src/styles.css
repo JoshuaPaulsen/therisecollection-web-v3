@@ -144,7 +144,7 @@ body {
 
     grid-area: one;
  
-    background-color: #95d68d; 
+    /* background-color: #95d68d;  */
   
     
  }
@@ -218,6 +218,10 @@ body {
 
   .section-games {
     background-image: url('../public/images/randomTV.PNG');
+
+    margin-left: 75px;
+    margin-right: 75px;
+
     height: 75vh;
     background-position-x: center;
     background-position-y: center;
@@ -229,6 +233,9 @@ body {
     background-image: url('../public/images/cars.PNG');
     height: 75vh;
 
+    margin-left: 75px;
+    margin-right: 75px;
+
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -238,6 +245,9 @@ body {
   .section-software {
     background-image: url('../public/images/computerspace.PNG');
     height: 75vh;
+
+    margin-left: 75px;
+    margin-right: 75px;
 
     background-position-x: center;
     background-position-y: center;
@@ -258,7 +268,42 @@ body {
 
   /* Note - look into max-width for multiple supported devices */
   @media (max-width: 480px) {
+
+    .section-games{
+      margin: 10px;
+      height:450px;
+      background-position: contain;
+      background-position-x: left;
+
+    }
+
+    .section-media {
+      margin: 10px;
+      height:450px;
+      background-position: contain;
+      background-position-x: left;
+    }
+
+    .section-software {
+      margin: 10px;
+      height:450px;
+      background-position: contain;
+      background-position-x: left;
+    }
+
+    .section-footer {
+      background-position-x: -275px;
+      background-position-y: bottom;
+    }
+
+    .section-home {
+      background-position-x: -770px;
+      background-position-y: bottom;
+    }
+
     .angry-grid {
+      padding-top: 5vh;
+
       display: grid;
       grid-template-areas: 
       "one one"

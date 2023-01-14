@@ -22,7 +22,7 @@ export default function App() {
       <div
         className="section"
         style={{
-          backgroundColor: 'black'
+          backgroundColor: 'red'
         }}
         
       >
@@ -38,7 +38,7 @@ export default function App() {
       <div
         className="section"
         style={{
-          backgroundColor: 'black'
+          backgroundColor: 'red'
         }}
       >
 
@@ -54,7 +54,7 @@ export default function App() {
       <div
         className="section"
         style={{
-          backgroundColor: 'black'
+          backgroundColor: 'red'
         }}
       >
         <div className="angry-grid">
