@@ -2,6 +2,27 @@ body {
     margin: 0;
   }
 
+.headerText {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* menu item in progress */
+.menuItems a p{
+  display: inline-block;
+  color: blue;
+}
+
+.menuItems {
+  margin-left: 725px;
+
+}
+
+.container p a {
+  color: blue;
+}
+
   .home-text-container {
     text-align: center;
     background-color: black;
@@ -141,16 +162,54 @@ body {
  }
    
  #item-0 {
-
-    grid-area: one;
- 
-    /* background-color: #95d68d;  */
-  
-    
+    grid-area: one;  
  }
 
  #item-0 h4{
-  color: white
+  color: white;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  line-height: inherit;
+  font-family: Roboto,sans-serif;
+  --tw-bg-opacity: 1;
+  text-align: center;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / .5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 45px;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
  }
 
  #item-1 h4{
@@ -159,7 +218,6 @@ body {
 
  #item-1 {
     grid-area: two;
-    background-color: #7B669D; 
  }
 
   .flex-box-header {
@@ -167,9 +225,16 @@ body {
     flex-direction: row;
     justify-content:space-between;
     align-items: baseline;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.7);  
   }
+
+.flex-box-header .headerText a{
+  text-decoration: none;
+}
+
+.flex-box-header .headerText a p{
+  text-decoration: none;
+ 
+}
 
   .header {
     position: absolute;
@@ -179,19 +244,16 @@ body {
     padding-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: x-large;
+    font-size: 30px;
     color: white;
   }
   
   .container {
+    scroll-behavior: smooth;
+
     scroll-snap-type: y mandatory;
     height: 100vh;
     overflow-y: scroll;
-  }
-  
-  /* Hide container scrollbar */
-  .container::-webkit-scrollbar {
-    display: none;
   }
   
   .section-home {
@@ -269,6 +331,10 @@ body {
   /* Note - look into max-width for multiple supported devices */
   @media (max-width: 480px) {
 
+    .header h2 {
+      font-size: 20px;
+    }
+
     .section-games{
       margin: 10px;
       height:450px;
@@ -313,14 +379,27 @@ body {
     .angry-grid3 {
       display: grid;
       grid-template-areas: 
+      "two two"
+
       "one one"
 
-      "two two"
       ;
+    }
+    .flex-box-header {
+      background-color: rgba(0, 0, 0, 0.75);  
+      width: 100vw;
+
+    }
+
+    .flex-box-header a{
+      display: none;
+
     }
 
     .flex-box-header h2{
       margin-left: -25px;
+      
+
     }
 
   
