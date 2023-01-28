@@ -5,18 +5,18 @@ export default function App() {
     <div className="container">
       <div className="flex-box-header header">
         <div className="headerText">
-          <a href="/" >
+          <a href="/">
             <h2>THE RISE COLLECTION</h2>
           </a>
         </div>
-        <div className="menuItems" >
-          <a href="#games" style={{textDecoration: 'none'}}>
+        <div className="menuItems">
+          <a href="#games">
             <p>GAMES</p>
           </a>
-          <a href="#media" style={{textDecoration: 'none'}}>
+          <a href="#media">
             <p>MEDIA</p>
           </a>
-          <a href="#software" style={{textDecoration: 'none'}}>
+          <a href="#software">
             <p>SOFTWARE</p>
           </a>
         </div>
@@ -43,7 +43,7 @@ export default function App() {
           </div>
           <div id="item-1">
             <h4 id="games">Games</h4>
-            <p>
+            <p className="infoText">
               text text text text text text text text text text text text text
               text text text text text text text text text text text text text
               text text
@@ -60,7 +60,7 @@ export default function App() {
         <div className="angry-grid3">
           <div id="item-0">
             <h4 id="media">Media</h4>
-            <p>
+            <p className="infoText">
               text text text text text text text text text text text text text
               text text text text text text text text text text text text text
               text text
@@ -84,7 +84,7 @@ export default function App() {
           </div>
           <div id="item-1">
             <h4 id="software">Software</h4>
-            <p>
+            <p className="infoText">
               text text text text text text text text text text text text text
               text text text text text text text text text text text text text
               text text
