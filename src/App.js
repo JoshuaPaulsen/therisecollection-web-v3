@@ -24,17 +24,16 @@ export default function App() {
       <div
         id="/"
         style={{
-          backgroundColor: "red",
+          backgroundColor: "black",
         }}
         className="section-home"
       >
         <div id="home-text-container"></div>
       </div>
-
       <div
         className="section"
         style={{
-          backgroundColor: "red",
+          backgroundColor: "black",
         }}
       >
         <div className="angry-grid">
@@ -44,9 +43,11 @@ export default function App() {
           <div id="item-1">
             <h4 id="games">Games</h4>
             <p className="infoText">
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text
+              Founded with a focus on Games, RISE pushed its first "release" to
+              the IOS App Store in early 2015. We started out with a focus on
+              the mobile platform and believed the environment would encourage
+              developers to innovate for years to come! This really sparked a
+              huge interest in software..
             </p>
           </div>
         </div>
@@ -54,16 +55,17 @@ export default function App() {
       <div
         className="section"
         style={{
-          backgroundColor: "red",
+          backgroundColor: "black",
         }}
       >
         <div className="angry-grid3">
           <div id="item-0">
             <h4 id="media">Media</h4>
             <p className="infoText">
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text
+              Experience the media we capture through a first person lense... we
+              want you to feel like your right there while viewing our videos!
+              The "Media" project will eventually expand but right now focuses
+              on cars through our redlightcam brand.
             </p>
           </div>
           <div id="item-1">
@@ -75,7 +77,7 @@ export default function App() {
       <div
         className="section"
         style={{
-          backgroundColor: "red",
+          backgroundColor: "black",
         }}
       >
         <div className="angry-grid">
@@ -85,19 +87,14 @@ export default function App() {
           <div id="item-1">
             <h4 id="software">Software</h4>
             <p className="infoText">
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text
+              Websites, Quality Assurance test plans, APIs, VR Content... We
+              plan to try as much as we can! Follow along as we learn cool new
+              tech + create documentation thats built for everyone.
             </p>
           </div>
         </div>
       </div>
-      <div
-        className="section-footer"
-        style={{
-          backgroundColor: "red",
-        }}
-      ></div>
+      <div className="section-footer"></div>
     </div>
   );
 }
