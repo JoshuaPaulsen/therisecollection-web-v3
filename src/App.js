@@ -43,11 +43,13 @@ export default function App() {
           <div id="item-1">
             <h4 id="games">Games</h4>
             <p className="infoText">
-              Founded with a focus on Games, RISE pushed its first "release" to
-              the IOS App Store in early 2015. We started out with a focus on
-              the mobile platform and believed the environment would encourage
-              developers to innovate for years to come! This really sparked a
-              huge interest in software..
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </div>
@@ -62,10 +64,13 @@ export default function App() {
           <div id="item-0">
             <h4 id="media">Media</h4>
             <p className="infoText">
-              Experience the media we capture through a first person lense... we
-              want you to feel like your right there while viewing our videos!
-              The "Media" project will eventually expand but right now focuses
-              on cars through our redlightcam brand.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
           <div id="item-1">
@@ -85,11 +90,15 @@ export default function App() {
             <div className="section-software"></div>
           </div>
           <div id="item-1">
-            <h4 id="software">Software</h4>
+            <h4 id="software">Discovery</h4>
             <p className="infoText">
-              Websites, Quality Assurance test plans, APIs, VR Content... We
-              plan to try as much as we can! Follow along as we learn cool new
-              tech + create documentation thats built for everyone.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </div>

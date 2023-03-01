@@ -1,5 +1,10 @@
 /* MARK - START MISC */
 
+html {
+  overflow-x: hidden;
+
+}
+
 body {
   margin: 0;
 }
@@ -328,8 +333,8 @@ body {
 
 .section-games {
   background-image: url('../public/images/randomTV.PNG');
-
-  /* margin-left: 75px; */
+  border-radius: 10px;
+  max-width: 500px;
   margin-right: 75px;
 
   height: 75vh;
@@ -339,21 +344,27 @@ body {
   background-repeat: no-repeat;
 }
 
+
+
 .section-media {
   background-image: url('../public/images/cars.PNG');
+  border-radius: 10px;
+  max-width: 500px;
   height: 75vh;
-
-  margin-left: 75px;
-  margin-right: 69px;
-
+  margin-right: 75.5px;
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
+
 .section-software {
   background-image: url('../public/images/computerspace.PNG');
+  border-radius: 10px;
+  max-width: 500px;
+
   height: 75vh;
 
   /* margin-left: 75px; */
@@ -377,7 +388,18 @@ body {
 
 /* MARK - END PAGE */
 
+/* iPhone Breakpoint */
 @media (max-width: 480px) {
+
+  .angry-grid3 {
+    padding-top: 11.5vh;
+
+  }
+
+  html {
+    overflow-x: hidden;
+
+  }
 
   .infoText {
     text-align: center;
