@@ -41,8 +41,8 @@ export default function App() {
             <div className="section-games"></div>
           </div>
           <div id="item-1">
-            <h4 id="games">Games</h4>
-            <p className="infoText">
+            <h4 class="headerGames" id="games">Games</h4>
+            <p className="infoTextGames">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -62,8 +62,8 @@ export default function App() {
       >
         <div className="angry-grid3">
           <div id="item-0">
-            <h4 id="media">Media</h4>
-            <p className="infoText">
+            <h4 class="headerMedia" id="media">Media</h4>
+            <p className="infoTextMedia">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -90,8 +90,8 @@ export default function App() {
             <div className="section-software"></div>
           </div>
           <div id="item-1">
-            <h4 id="software">Discovery</h4>
-            <p className="infoText">
+            <h4 class="headerSoftware" id="software">Software</h4>
+            <p className="infoTextSoftware">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

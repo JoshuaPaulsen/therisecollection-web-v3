@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+.menuItems a p:active {
+  color: red
+}
+
 /* MARK - END MISC */
 
 /* MARK - START HEADER */
@@ -143,39 +147,32 @@ body {
   min-width: 200px;
 }
 
-.infoText {
-  -webkit-text-size-adjust: 100%;
-  tab-size: 4;
-  --swiper-theme-color: #007aff;
-  --swiper-navigation-size: 44px;
+.infoTextGames {
   font-family: Roboto, sans-serif;
   --tw-bg-opacity: 1;
-  text-align: left;
-  box-sizing: border-box;
-  border-width: 0;
-  border-style: solid;
-  border-color: #e5e7eb;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / .5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  /* margin-left: auto; */
-  margin-right: auto;
-  display: block;
-  padding-bottom: 30px;
-  font-size: 1rem;
-  font-weight: 400;
+  text-align: left;  
+  line-height: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  max-width: 320px;
+  min-width: 200px;
+}
+
+.infoTextMedia {
+  font-family: Roboto, sans-serif;
+  --tw-bg-opacity: 1;
+  text-align: left;  
+  line-height: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  max-width: 320px;
+  min-width: 200px;
+}
+
+.infoTextSoftware {
+  font-family: Roboto, sans-serif;
+  --tw-bg-opacity: 1;
+  text-align: left;  
   line-height: 22px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -184,49 +181,10 @@ body {
 }
 
 .container h4 {
-  -webkit-text-size-adjust: 100%;
-  tab-size: 4;
-  --swiper-theme-color: #007aff;
-  --swiper-navigation-size: 44px;
-  line-height: inherit;
   font-family: Roboto, sans-serif;
-  --tw-bg-opacity: 1;
-  text-align: center;
-  box-sizing: border-box;
-  border-width: 0;
-  border-style: solid;
-  border-color: #e5e7eb;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / .5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
   margin: 0;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 45px;
   font-weight: 500;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .angry-grid3 {
@@ -295,8 +253,6 @@ body {
   /* padding-left: 200px; */
 }
 
-
-
 #item-1 {
   grid-area: two;
   margin-left: 200px;
@@ -344,8 +300,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
-
 .section-media {
   background-image: url('../public/images/cars.PNG');
   border-radius: 10px;
@@ -357,8 +311,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
 
 .section-software {
   background-image: url('../public/images/computerspace.PNG');
@@ -388,8 +340,25 @@ body {
 
 /* MARK - END PAGE */
 
-/* iPhone Breakpoint */
-@media (max-width: 480px) {
+/* BREAKPOINTS - IN PROGRESS */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+
+
+  .headerGames{
+    top: -75px;
+    position: relative;
+  }
+
+  .headerMedia{
+    top: -115px;
+    position: relative;
+  }
+
+  .headerSoftware {
+    top: -85px;
+    position: relative;
+  }
 
   .angry-grid3 {
     padding-top: 11.5vh;
@@ -401,8 +370,25 @@ body {
 
   }
 
-  .infoText {
+  .infoTextGames {
     text-align: center;
+    position: relative;
+    top: -60px;
+    right: -15px;
+  }
+
+  .infoTextMedia {
+    text-align: center;
+    position: relative;
+    top: -105px;
+    right: -15px;
+  }
+
+  .infoTextSoftware {
+    text-align: center;
+    position: relative;
+    top: -75px;
+    right: -15px;
   }
 
   #item-0 {
@@ -411,18 +397,17 @@ body {
 
   #item-1 h4 {
     text-align: center;
-    
 
   }
 
   #item-0 h4 {
     text-align: center;
-    
+
 
   }
 
   #item-1 {
-    margin: 0 50px 0 50px;
+    margin: 0 50px 50px 50px;
   }
 
   .header h2 {
@@ -432,6 +417,8 @@ body {
   .section-games {
     margin: 10px;
     height: 450px;
+    position: relative;
+    top: -40px;
     background-position: contain;
     background-position-x: left;
 
@@ -440,6 +427,8 @@ body {
   .section-media {
     margin: 10px;
     height: 450px;
+    position: relative;
+    top: -40px;
     background-position: contain;
     background-position-x: left;
   }
@@ -447,6 +436,8 @@ body {
   .section-software {
     margin: 10px;
     height: 450px;
+    position: relative;
+    top: -40px;
     background-position: contain;
     background-position-x: left;
   }
@@ -496,6 +487,5 @@ body {
 
 
   }
-
 
 }
