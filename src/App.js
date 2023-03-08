@@ -1,7 +1,17 @@
 import "./styles.css";
+import { gamesMenu, mediaMenu, softwareMenu } from "./script/checkUnderline"
 
-export default function App() {
-  return (
+
+import React from 'react';
+class App extends React.Component {
+
+// componentDidMount() {
+ 
+// }
+
+render() {
+	return (
+    
     <div className="container">
       <div className="flex-box-header header">
         <div className="headerText">
@@ -9,15 +19,15 @@ export default function App() {
             <h2>THE RISE COLLECTION</h2>
           </a>
         </div>
-        <div className="menuItems">
-          <a href="#games">
-            <p>GAMES</p>
+        <div className="menuItems" >
+          <a href="#games" onClick={gamesMenu} >
+            <p id="gamesMenuText">GAMES</p>
           </a>
-          <a href="#media">
-            <p>MEDIA</p>
+          <a href="#media" onClick={mediaMenu}>
+            <p id="mediaMenuText">MEDIA</p>
           </a>
-          <a href="#software">
-            <p>SOFTWARE</p>
+          <a href="#software" onClick={softwareMenu} >
+            <p id="softwareMenuText">SOFTWARE</p>
           </a>
         </div>
       </div>
@@ -41,7 +51,7 @@ export default function App() {
             <div className="section-games"></div>
           </div>
           <div id="item-1">
-            <h4 class="headerGames" id="games">Games</h4>
+            <h4 className="headerGames" id="games">Games</h4>
             <p className="infoTextGames">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -62,7 +72,7 @@ export default function App() {
       >
         <div className="angry-grid3">
           <div id="item-0">
-            <h4 class="headerMedia" id="media">Media</h4>
+            <h4 className="headerMedia" id="media">Media</h4>
             <p className="infoTextMedia">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -90,7 +100,7 @@ export default function App() {
             <div className="section-software"></div>
           </div>
           <div id="item-1">
-            <h4 class="headerSoftware" id="software">Software</h4>
+            <h4 className="headerSoftware" id="software">Software</h4>
             <p className="infoTextSoftware">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -107,3 +117,9 @@ export default function App() {
     </div>
   );
 }
+}
+
+export default App;
+
+
+
